@@ -33,7 +33,7 @@ const projects = [
       'Implemented Random Forest, SVM with GridSearchCV optimization',
     ],
     techStack: ['Python', 'Deep Learning', 'Random Forest', 'SVM', 'GridSearchCV', 'Astronomy'],
-    github: 'https://github.com/Mszaffari',
+    github: 'https://huggingface.co/spaces/Meraj21/stellar-pulsar-classifier',
     live: true,
   },
   {
@@ -50,7 +50,7 @@ const projects = [
       'Data augmentation techniques improving model robustness by 18%',
     ],
     techStack: ['Python', 'PyTorch', 'EfficientNet', 'BlazeFace', 'Computer Vision'],
-    github: 'https://github.com/Mszaffari',
+    github: 'https://github.com/Mszaffari/Deepfake-Image-detector',
     live: null,
   },
   {
@@ -84,7 +84,7 @@ const projects = [
       'SMOTE for handling class imbalance improving minority class detection by 22%',
     ],
     techStack: ['Python', 'Scikit-learn', 'Streamlit', 'SMOTE', 'Ensemble Learning'],
-    github: 'https://github.com/Mszaffari',
+    github: 'https://github.com/Mszaffari/Diabetic-prediction-app',
     live: null,
   },
 ];
