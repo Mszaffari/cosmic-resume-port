@@ -4,8 +4,8 @@ const experiences = [
   {
     title: 'Business Analytics Intern',
     company: 'Outlook Publishers',
-    period: 'Ongoing',
-    current: true,
+    period: 'Completed',
+    current: false,
     highlights: [
       'Conducting comprehensive business data analysis identifying KPIs and growth opportunities across 50+ datasets',
       'Developing interactive Power BI dashboards improving stakeholder decision-making efficiency by 35%',
@@ -16,8 +16,8 @@ const experiences = [
   {
     title: 'Data Science Intern (Python)',
     company: 'Qspider',
-    period: 'Ongoing',
-    current: true,
+    period: 'Completed',
+    current: false,
     highlights: [
       'Implementing end-to-end machine learning pipelines using Python for predictive analytics projects',
       'Processing and analyzing large-scale datasets with advanced data preprocessing and feature engineering',

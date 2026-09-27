@@ -14,6 +14,12 @@ const skillCategories = [
     skills: ['Deep Learning', 'Computer Vision', 'NLP', 'Predictive Modeling', 'Time-Series Forecasting', 'XGBoost', 'Prophet'],
   },
   {
+    title: 'Generative AI',
+    icon: Brain,
+    color: 'accent',
+    skills: ['Generative AI', 'Large Language Models (LLMs)', 'Transformers', 'Prompt Engineering', 'Embeddings', 'Retrieval-Augmented Generation (RAG)', 'Vector Databases', 'AI Agents', 'Fine-Tuning', 'LoRA', 'QLoRA', 'Hugging Face'],
+  },
+  {
     title: 'Frameworks',
     icon: Layers,
     color: 'accent',
