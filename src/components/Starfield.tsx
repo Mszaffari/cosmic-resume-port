@@ -7,7 +7,7 @@ const Starfield = () => {
     if (!containerRef.current) return;
     
     const container = containerRef.current;
-    const starCount = 150;
+    const starCount = window.matchMedia('(max-width: 767px)').matches ? 72 : 118;
     
     // Clear existing stars
     container.innerHTML = '';
@@ -37,7 +37,7 @@ const Starfield = () => {
       
       // Add occasional colored stars
       if (Math.random() > 0.9) {
-        const colors = ['hsl(258 90% 66%)', 'hsl(217 91% 60%)', 'hsl(195 100% 50%)'];
+        const colors = ['hsl(var(--secondary))', 'hsl(var(--primary))', 'hsl(var(--accent))'];
         star.style.background = colors[Math.floor(Math.random() * colors.length)];
         star.style.boxShadow = `0 0 ${size * 2}px ${star.style.background}`;
       }

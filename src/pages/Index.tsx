@@ -9,6 +9,7 @@ import AchievementsSection from '@/components/AchievementsSection';
 import EducationSection from '@/components/EducationSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import MusicControl from '@/components/MusicControl';
 
 const Index = () => {
   return (
@@ -31,6 +32,7 @@ const Index = () => {
         </main>
         <Footer />
       </div>
+      <MusicControl />
     </div>
   );
 };
